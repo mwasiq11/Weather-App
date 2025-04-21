@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="media.CSS">
+    <link rel="website icon" type="webp" href="images/weatherIcon.webp">
+
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+    <div id="weatherContent"></div>
+    <div class="main-container">
+        <div class="search_container">
+            <div id="searchBox">
+                <input type="text" id="cityInput" placeholder="Enter the City Name">
+                <i class="fa-solid fa-magnifying-glass box"></i>
+            </div>
+
+            <div class="location_container">
+                <span><i class="fa-solid fa-location-dot locationIcon"></i></span>
+                <p id="location"></p>
+                <span id="day"></span>
+                <span id="date"></span>
+
+            </div>
+
+            <div class="container">
+                <div class="cloud front">
+                    <span class="left-front"></span>
+                    <span class="right-front"></span>
+                </div>
+                <span class="sun sunshine"></span>
+                <span class="sun"></span>
+                <div class="cloud back"><span></span>
+                    <span class="left-back"></span>
+                    <span class="right-back"></span>
+                </div>
+            </div>
+            <div class="tempSection">
+                <p id="tempature">Temperature <i class="fa-solid fa-temperature-half"></i></p>
+                <p id="windSpeed">Wind Speed<img src="images/WindSpeed.png" alt="Wind Icon"> </p>
+                <p id="humidity">Humidity <img src="images/humdity.png" alt="img"></p>
+            </div>
+
+            <div class="tempworkSection">
+                <p id="tempatureWork"></p>
+                <p id="windSpeedWork"></p>
+                <p id="humdityWork"></p>
+            </div>
+            <h3>Upcoming Days Forecast Prediction:</h3>
+            <div class="forcastContainer">
+                <div class="monSection">
+                    <p id="monPara">Mon</p>
+                    <p id="monCondition"></p>
+                    <img src="/images/sun.png">
+                    <p class="tempPara"></p>
+                </div>
+                <div class="tuesSection">
+                    <p id="tuesPara">Tues</p>
+                    <p id="tuesCondition"></p>
+                    <img src="/images/broken-clouds-day.png">
+                    <p class="tempPara"></p>
+                </div>
+                <div class="wedSection">
+                    <p id="wedPara">Wed</p>
+                    <p id="wedCondition"></p>
+                    <img src="/images/few-clouds-day.png">
+                    <p class="tempPara"></p>
+                </div>
+                <div class="thrusSection">
+                    <p id="thrusPara">Thrus</p>
+                    <p id="thrusCondition"></p>
+                    <img src="/images/rain-day.png">
+                    <p class="tempPara"></p>
+                </div>
+                <div class="friSection">
+                    <p id="friPara">Fri</p>
+                    <p id="friCondition"></p>
+                    <img src="/images/scattered-clouds-day.png">
+                    <p class="tempPara"></p>
+                </div>
+            </div>
+
+        </div>
+        
+</body>
+<div id="credits"> Muhammad wasiq</div>
+<script src="App.JS"></script>
+
+</html>

@@ -1,0 +1,637 @@
+/* FOR MOBILE VIEW */
+@media only screen and (max-width:480px) {
+    body {
+        background-image: url(images/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    .main-container {
+        width: 80%;
+        height: auto;
+       
+        margin-left: 2.5rem;
+        padding: 2rem;
+        background: transparent;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgb(3, 235, 243);
+
+    }
+
+    .search_container {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    i.box {
+        height: 3.5rem;
+        width: 2rem;
+        color: black;
+        margin-right: 4rem;
+        margin-top: 0rem;
+        position: relative;
+    }
+
+    #searchBox {
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+    #searchBox input {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        outline: none;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        height: 3rem;
+        width: 14rem;
+        margin-left: 5rem;
+        margin-top: -1rem;
+
+    }
+
+    #searchBox #cityInput {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    input::placeholder {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .box {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        color: (255, 255, 255, 0.1);
+
+    }
+
+
+    .location_container i {
+        margin-top: 2rem;
+        margin-right: 23rem;
+        color: #07b5e0;
+    }
+
+    #location {
+       
+        margin-top: -2rem;
+        margin-left: 10rem;
+        font-size: 1rem;
+        display: flex;
+        font-style: italic;
+    }
+
+    .locationIcon {
+        margin-left: 8.8rem;
+        margin-bottom: 0.85rem;
+        font-size: 1rem;
+       
+    }
+
+    .location_container #date {
+        margin-left: 6rem;
+        margin-top: -3.2rem;
+        font-style: italic;
+
+    }
+
+    .location_container #day,
+    #date {
+        margin-left: 4rem;
+        font-size: 0.8rem;
+        margin-bottom: 4rem;
+    }
+
+
+
+
+    .sun {
+        position: absolute;
+        top: 160px;
+       
+        left: 65%;
+        transform: translateX(-50%);
+        width: 90px;
+        height: 90px;
+        background: linear-gradient(to right, #fcbb04, #fffc00);
+        border-radius: 50%;
+        z-index: 10;
+    }
+
+
+    .front {
+        position: absolute;
+        top: 160px;
+       
+        left: 255px;
+        
+        z-index: 11;
+        animation: clouds 8s infinite ease-in-out;
+    }
+
+    .back {
+        position: absolute;
+        top: 180px;
+       
+        left: 230px;
+        
+        z-index: 10;
+        animation: clouds 12s infinite ease-in-out;
+    }
+
+
+
+
+    .sunshine {
+        position: absolute;
+        top: 160px;
+       
+        left: 65%;
+        transform: translateX(-50%);
+        width: 140px;
+      
+        height: 140px;
+        background: radial-gradient(circle, rgb(243, 207, 1) 20%, rgba(243, 239, 3, 0.986) 50%, rgba(255, 238, 0, 0.986) 100%);
+        border-radius: 50%;
+        z-index: 9;
+       
+        animation: sunshines 2s infinite linear;
+        opacity: 0.6;
+    }
+
+    @keyframes sunshines {
+        0% {
+            transform: translateX(-50%) scale(1);
+            opacity: 0.6;
+        }
+
+        50% {
+            opacity: 0.4;
+        }
+
+        100% {
+            transform: translateX(-50%) scale(1.5);
+            opacity: 0;
+        }
+    }
+
+
+    .container {
+        width: 150px;
+        height: 60px;
+        padding: 5px;
+        margin-top: -1rem;
+
+        margin-left: 30rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .cloud {
+        width: 100px;
+    }
+
+    .front {
+        padding-top: 25px;
+        margin-left: -25px;
+    }
+
+    .back {
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+
+    .right-front {
+        width: 20px;
+        height: 20px;
+        margin-left: -15px;
+    }
+
+    .left-front {
+        width: 30px;
+        height: 30px;
+    }
+
+    .right-back {
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+    }
+
+    .left-back {
+        width: 15px;
+        height: 15px;
+    }
+
+    .sun {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .tempSection .fa-solid {
+
+        font-size: 16px;
+    }
+
+    .tempSection {
+        margin-top: 0rem;
+        display: flex;
+        gap: 1.5rem;
+
+        font-size: 1rem;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .tempSection p {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 1rem;/
+    }
+
+
+    .tempSection .fa-solid,
+    .tempSection img {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    .tempSection {
+        gap: 1rem;
+    }
+
+    .tempSection p {
+        font-size: 0.9rem;
+    }
+
+    .tempSection .fa-solid,
+    .tempSection img {
+        width: 14px;
+        height: 14px;
+
+    }
+
+
+    .tempworkSection {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        font-size: 13px;
+        position: relative;
+        margin-top: -1rem;
+
+    }
+
+    .tempworkSection #tempatureWork,
+    #humdityWork,
+    #windSpeedWork {
+
+        margin-top: -2rem;
+        position: relative;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin-top: 0rem;
+    }
+
+
+
+    .forcastContainer {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem !important;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .monSection,
+    .tuesSection,
+    .wedSection,
+    .thrusSection,
+    .friSection {
+        font-weight: 600;
+        height: 12rem;
+      
+        width: 8rem;
+       
+        background: linear-gradient(145deg, #4facfe, #07b5e0);
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+            0 0 25px rgba(0, 242, 254, 0.9),
+            inset 0 0 10px rgba(255, 255, 255, 0.5);
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+        border: 2px solid #05f8ec;
+        box-sizing: border-box;
+    }
+
+    .tempPara {
+        margin-top: -0.4rem;
+    }
+
+    .monSection img,
+    .tuesSection img,
+    .wedSection img,
+    .thrusSection img,
+    .friSection img {
+        width: 40px;
+        
+        height: 40px;
+      
+        object-fit: contain;
+       
+        margin-bottom: 0.5rem;
+        
+    }
+
+
+   
+
+    .forcastContainer {
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .monSection,
+    .tuesSection,
+    .wedSection,
+    .thrusSection,
+    .friSection {
+        width: 5rem;
+ 
+        height: 8rem;
+     
+        font-size: 0.8rem;
+        border-radius: 10px;
+        padding: 0.8rem;
+    }
+
+    .tempPara {
+        margin-top: -0.8rem;
+        font-size: 0.7rem;
+    }
+
+   
+
+    .monSection img,
+    .tuesSection img,
+    .wedSection img,
+    .thrusSection img,
+    .friSection img {
+        height: 2.5rem;
+        width: 2.5rem;
+        object-fit: contain;
+        display: block;
+        margin-top: -1rem;
+        
+
+
+    }
+     #monCondition,
+     #tuesCondition,
+     #wedCondition,
+     #thrusCondition,
+     #friCondition{
+        font-size: 0.65rem
+     }
+
+    .monSection:hover,
+    .tuesSection:hover,
+    .wedSection:hover,
+    .thrusSection:hover,
+    .friSection:hover {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+            0 0 35px rgba(0, 242, 254, 1),
+            inset 0 0 15px rgba(255, 255, 255, 0.6);
+        transform: scale(1.05);
+        background: linear-gradient(145deg, #1e90ff, #00c3ff);
+
+    }
+}
+
+
+body.loading #weatherContent {
+    filter: blur(6px);
+    transition: filter 0.3s ease;
+    pointer-events: none;
+  }
+
+  #loader {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  
+  body.loading #loader {
+    display: flex;
+  }
+   
+
+  /* Responsive styling for screens between 1024px and 1432px */
+  
+   @media screen and (max-width: 1432px) and (min-width: 1024px) {
+    .main-container {
+      width: 90%;
+      padding: 1.5rem;
+      margin: 2rem auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+  
+    .search_container {
+      flex: 1 1 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #searchBox input {
+      width: 90%;
+      max-width: 400px;
+    }
+  
+    .container {
+      flex: 1 1 300px;
+      margin: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .tempSection,
+    .tempworkSection {
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .location_container {
+      flex: 1 1 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    #location,
+    .locationIcon,
+    #day,
+    #date {
+      margin: 0 1rem;
+    }
+  
+    .forcastContainer {
+      flex: 1 1 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  
+    .monSection,
+    .tuesSection,
+    .wedSection,
+    .thrusSection,
+    .friSection {
+      width: 7rem;
+      height: 10rem;
+    }
+  }
+
+  
+
+
+
+   @media screen and (max-width: 1100px) {
+    .main-container {
+      width: 95%;
+      padding: 1rem;
+      margin: 1rem auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    .search_container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  
+    #searchBox {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    #searchBox input {
+      width: 90%;
+      max-width: 350px;
+    }
+  
+    .container {
+      width: 100%;
+      max-width: 300px;
+      display: flex;
+      justify-content: center;
+      margin: 1rem auto;
+    }
+  
+    .tempSection,
+    .tempworkSection {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      width: 100%;
+    }
+  
+    .location_container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    #location,
+    .locationIcon,
+    #day,
+    #date {
+      margin: 0.5rem 1rem;
+      font-size: 1.2rem;
+    }
+  
+    .forcastContainer {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+  
+    .monSection,
+    .tuesSection,
+    .wedSection,
+    .thrusSection,
+    .friSection {
+      width: 7rem;
+      height: 10rem;
+    }
+  }
+   
+
+
+
+ 
+/* FOR TABLET VIEW */
+
+
+

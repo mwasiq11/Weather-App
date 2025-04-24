@@ -365,19 +365,19 @@ body.loading #loader {
 
 /* Fancy spinner */
 
-/* .loader-spinner {
+ .loader-spinner {
   width: 64px;
   height: 64px;
   border: 8px solid rgb(239, 246, 247);
   border-top-color: #0c97e7;
   border-radius: 50%;
   animation: spin 1s ease-in-out infinite;
-} */
+} 
 
 /* Spinner animation */
 
-/* @keyframes spin {
+ @keyframes spin {
   to {
     transform: rotate(360deg);
   }
-}  */
+}  

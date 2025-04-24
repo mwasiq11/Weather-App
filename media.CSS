@@ -1,5 +1,5 @@
 /* responsive view for Mobile screens */
-@media only screen and (max-width:765px) {
+@media only screen and (max-width:767px) {
     body {
         background-image: url(images/Background.jpg);
         background-repeat: no-repeat;
@@ -469,7 +469,7 @@ body.loading #loader {
 @media screen and (min-width: 1024px) and (max-width: 1432px) {
 
     .main-container {
-        width: 90% ;
+        width: 90%;
         height: 100%;
         padding: 1.5rem;
         margin: 2rem auto;
@@ -493,30 +493,6 @@ body.loading #loader {
         max-width: 400px;
     }
 
-    .sun {
-        height: 120px !important;
-        width: 120px !important;
-        margin-top: -2rem;
-        margin-left: 11rem !important;
-    }
-
-    .cloud {
-        margin-right: 25rem;
-    }
-
-    .front {
-        padding: 12px !important;
-        margin-left: 475px !important;
-    }
-
-    .back {
-        margin-top: -40px !important;
-        margin-left: 662px !important;
-    }
-
-    .sunshine {
-        left: 59% !important;
-    }
 
     .tempSection,
     .tempworkSection {
@@ -547,7 +523,7 @@ body.loading #loader {
 
 
     .location_container #date {
-        margin-left:5rem ;
+        margin-left: 5rem;
         margin-top: -1rem;
         font-style: italic;
     }
@@ -569,6 +545,19 @@ body.loading #loader {
         margin-right: 12rem;
         margin-top: -3rem;
         font-style: italic;
+    }
+
+    .sun {
+        margin-top: -6rem;
+    }
+
+    .front {
+        margin-left: 2rem;
+        margin-top: -5rem;
+    }
+
+    .back {
+        margin-top: -8rem;
     }
 
     .locationIcon {
@@ -650,6 +639,7 @@ body.loading #loader {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .main-container {
         width: 90%;
+        height: 100%;
         padding: 2rem 1rem;
         margin: 0 auto;
     }
@@ -698,8 +688,8 @@ body.loading #loader {
     .sun {
         position: absolute;
         top: 160px;
-
-        left: 65%;
+        margin-top: -2rem;
+        left: 73.5%;
         transform: translateX(-50%);
         width: 90px;
         height: 90px;
@@ -713,7 +703,7 @@ body.loading #loader {
         position: absolute;
         top: 160px;
 
-        left: 255px;
+        left: 23.5rem;
 
         z-index: 11;
         animation: clouds 8s infinite ease-in-out;
@@ -721,8 +711,8 @@ body.loading #loader {
 
     .back {
         position: absolute;
-        top: 180px;
-        margin-left: 495px !important;
+        top: 158px;
+        margin-left: 39.438rem !important;
 
         left: 230px;
 
@@ -737,7 +727,7 @@ body.loading #loader {
         position: absolute;
         top: 160px;
 
-        left: 59% !important;
+        left: 68% !important;
         transform: translateX(-50%);
         width: 140px;
 
@@ -897,14 +887,14 @@ body.loading #loader {
     .tempSection {
         flex-direction: row;
         justify-content: center;
-        gap: 2rem;
+        gap: 5rem;
         flex-wrap: wrap;
         margin-bottom: -0.1rem;
     }
 
     .tempworkSection {
         justify-content: center;
-        gap: 8rem;
+        gap: 10rem;
         flex-wrap: wrap;
 
     }

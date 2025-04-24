@@ -55,9 +55,7 @@ i.box {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 input::placeholder {
@@ -69,9 +67,6 @@ input::placeholder {
   margin-left: 2rem;
   margin-top: 1rem;
   color: (255, 255, 255, 0.1);
-
-
-
 }
 
 .location_container i {
@@ -81,7 +76,6 @@ input::placeholder {
 }
 
 #location {
-
   margin-top: -2rem;
   margin-left: 10rem;
   font-size: 2rem;
@@ -92,14 +86,12 @@ input::placeholder {
 .locationIcon {
   margin-left: 8.8rem;
   margin-bottom: 0.2rem;
- 
 }
 
 .location_container #date {
   margin-left: 6rem;
   margin-top: -3.2rem;
   font-style: italic;
-
 }
 
 .location_container #day,
@@ -117,7 +109,6 @@ input::placeholder {
   justify-content: center;
   margin-left: 40rem;
   margin-top: -10rem;
-
 }
 
 .tempSection {
@@ -126,7 +117,6 @@ input::placeholder {
   font-size: 1.5rem;
   justify-content: center;
   margin-bottom: 3rem;
-
 }
 
 .tempworkSection {
@@ -136,22 +126,18 @@ input::placeholder {
   font-size: 20px;
   position: relative;
   margin-top: -3rem;
-
 }
 
 .tempworkSection #tempatureWork,
 #humdityWork,
 #windSpeedWork {
-
   margin-bottom: 2rem;
   position: relative;
 }
 
 h3 {
-
   font-size: 1.5rem;
   color: white;
-
 }
 
 .forcastContainer {
@@ -160,7 +146,6 @@ h3 {
   gap: 1rem;
   margin-top: 2rem;
 }
-
 
 .monSection,
 .tuesSection,
@@ -172,15 +157,13 @@ h3 {
   width: 8rem;
   background: linear-gradient(145deg, #137dda, #0da6cc);
   border-radius: 20px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
-    0 0 25px rgba(3, 168, 233, 0.9),
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 0 0 25px rgba(3, 168, 233, 0.9),
     inset 0 0 10px rgba(255, 255, 255, 0.5);
   text-align: center;
   transition: all 0.3s ease-in-out;
   color: white;
   font-size: 1rem;
   border: 3px solid #05f0f8f5;
-
 }
 
 .monSection img,
@@ -192,14 +175,10 @@ h3 {
   width: 6rem;
   object-fit: contain;
   margin-top: -2rem;
-
-
 }
-
 
 .tempPara {
   margin-top: -0.4rem;
-
 }
 
 .fa-solid,
@@ -208,15 +187,12 @@ h3 {
   font-size: 1.2rem;
 }
 
-
-
 .tempSection img,
 .tempSection i {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 5px;
 }
-
 
 #searchBox i {
   font-size: 1.5rem;
@@ -225,8 +201,6 @@ h3 {
   color: white;
 }
 
-
-
 .container {
   width: 250px;
   height: 250px;
@@ -234,7 +208,6 @@ h3 {
   display: flex;
 
   margin-right: 3rem;
-
 }
 
 .cloud {
@@ -342,26 +315,21 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2rem;
-
 }
-
 
 .monSection:hover,
 .tuesSection:hover,
 .wedSection:hover,
 .thrusSection:hover,
 .friSection:hover {
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
-    0 0 35px rgba(0, 242, 254, 1),
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 0 0 35px rgba(0, 242, 254, 1),
     inset 0 0 15px rgba(255, 255, 255, 0.6);
   transform: scale(1.05);
   background: linear-gradient(145deg, #1e90ff, #00c3ff);
-
 }
 
 #humidityIcon {
   color: #07b5e0 !important;
-
 }
 
 /* loader  secttion */

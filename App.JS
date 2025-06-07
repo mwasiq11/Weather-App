@@ -23,7 +23,7 @@ async function searchWeather(defaultCity) {
     const city = cityInput;
     document.getElementById("location").innerHTML = city;
 
-    const apiKey = "b9042ec5d9a26c6e11c152ed3cf8ec90";
+    const apiKey = "Place your WeatherAPI";
     const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     // Fetch weather data
     const response = await fetch(apiURL);
